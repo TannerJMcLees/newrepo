@@ -1,6 +1,11 @@
 public class hello {
 	public static void main(String args[]){
-		System.out.println("Hello world!");
-		System.out.println("One more line.");
+		print("Hello World!");
+		print("One more line.");
+		print("new feature is conviniet.");
+	}
+
+	public void print(String s) {
+		System.out.print(s);
 	}
 }
